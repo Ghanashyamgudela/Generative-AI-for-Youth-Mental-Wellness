@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MindfulAI - Youth Mental Wellness</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="background-container">
+        <div class="blur-circle circle1"></div>
+        <div class="blur-circle circle2"></div>
+        <div class="blur-circle circle3"></div>
+    </div>
+
+    <nav class="glassmorphic-navbar">
+        <div class="logo">
+            <span>MindfulAI</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#resources">Resources</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="get-help-btn">
+            <button>Get Help Now</button>
+        </div>
+        <div class="hamburger">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </nav>
+
+    <main>
+        <section id="home" class="hero-section">
+            <div class="glassmorphic-card">
+                <h1>Generative AI for Youth Mental Wellness</h1>
+                <p>An AI-powered, confidential, and empathetic mental wellness solution that supports and guides youth in overcoming stigma and accessing help.</p>
+                <div class="cta-buttons">
+                    <button class="primary-btn">Start Conversation</button>
+                    <button class="secondary-btn">Learn More</button>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://via.placeholder.com/500x400" alt="Mental Wellness Illustration">
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <div class="section-header">
+                <h2>How MindfulAI Helps</h2>
+                <p>Our AI-powered platform provides personalized support for your mental wellness journey</p>
+            </div>
+            <div class="features-container">
+                <div class="feature-card glassmorphic-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <h3>Confidential Support</h3>
+                    <p>Your conversations are private and secure, creating a safe space for open discussion.</p>
+                </div>
+                <div class="feature-card glassmorphic-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>AI-Powered Guidance</h3>
+                    <p>Our advanced AI understands your needs and provides personalized mental wellness strategies.</p>
+                </div>
+                <div class="feature-card glassmorphic-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Empathetic Approach</h3>
+                    <p>Experience compassionate support designed specifically for youth mental wellness.</p>
+                </div>
+                <div class="feature-card glassmorphic-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-hands-helping"></i>
+                    </div>
+                    <h3>Resource Connection</h3>
+                    <p>Get connected to professional help and resources when you need additional support.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="services-section">
+            <div class="section-header">
+                <h2>Our Services</h2>
+                <p>Comprehensive mental wellness support tailored for youth</p>
+            </div>
+            <div class="services-container">
+                <div class="service-card glassmorphic-card">
+                    <h3>AI Chat Support</h3>
+                    <p>24/7 confidential conversations with our empathetic AI assistant to discuss your feelings and concerns.</p>
+                    <button class="service-btn">Try Now</button>
+                </div>
+                <div class="service-card glassmorphic-card">
+                    <h3>Mood Tracking</h3>
+                    <p>Monitor your emotional wellbeing over time with our intelligent mood tracking system.</p>
+                    <button class="service-btn">Track Mood</button>
+                </div>
+                <div class="service-card glassmorphic-card">
+                    <h3>Guided Exercises</h3>
+                    <p>Access personalized mindfulness, breathing, and relaxation exercises to manage stress and anxiety.</p>
+                    <button class="service-btn">Start Exercise</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="ai-demo" class="ai-demo-section">
+            <div class="section-header">
+                <h2>Experience MindfulAI</h2>
+                <p>Try a sample conversation with our AI assistant</p>
+            </div>
+            <div class="chat-container glassmorphic-card">
+                <div class="chat-messages" id="chat-messages">
+                    <div class="message ai-message">
+                        <div class="message-content">
+                            <p>Hi there! I'm MindfulAI. How are you feeling today?</p>
+                        </div>
+                    </div>
+                    <!-- Chat messages will be added here by JavaScript -->
+                </div>
+                <div class="chat-input">
+                    <input type="text" id="user-input" placeholder="Type your message here...">
+                    <button id="send-btn"><i class="fas fa-paper-plane"></i></button>
+                </div>
+            </div>
+        </section>
+
+        <section id="resources" class="resources-section">
+            <div class="section-header">
+                <h2>Helpful Resources</h2>
+                <p>Additional support for your mental wellness journey</p>
+            </div>
+            <div class="resources-container">
+                <div class="resource-card glassmorphic-card">
+                    <h3>Articles & Guides</h3>
+                    <ul>
+                        <li><a href="#">Understanding Anxiety in Teens</a></li>
+                        <li><a href="#">Healthy Coping Strategies</a></li>
+                        <li><a href="#">Talking to Parents About Mental Health</a></li>
+                        <li><a href="#">Building Resilience</a></li>
+                    </ul>
+                </div>
+                <div class="resource-card glassmorphic-card">
+                    <h3>Crisis Support</h3>
+                    <p>If you're in crisis and need immediate help:</p>
+                    <div class="crisis-numbers">
+                        <div class="crisis-line">
+                            <span class="line-name">National Suicide Prevention Lifeline:</span>
+                            <span class="line-number">1-800-273-8255</span>
+                        </div>
+                        <div class="crisis-line">
+                            <span class="line-name">Crisis Text Line:</span>
+                            <span class="line-number">Text HOME to 741741</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="testimonials-section">
+            <div class="section-header">
+                <h2>Success Stories</h2>
+                <p>How MindfulAI has helped young people</p>
+            </div>
+            <div class="testimonials-container" id="testimonials-container">
+                <div class="testimonial-card glassmorphic-card">
+                    <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                    <p class="testimonial-text">MindfulAI helped me understand my anxiety and gave me practical tools to manage it. I feel more in control now.</p>
+                    <div class="testimonial-author">
+                        <p class="author-name">Alex, 17</p>
+                    </div>
+                </div>
+                <div class="testimonial-card glassmorphic-card">
+                    <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                    <p class="testimonial-text">I was nervous about talking to someone about my feelings, but the AI made it easy. It's like having a supportive friend available anytime.</p>
+                    <div class="testimonial-author">
+                        <p class="author-name">Jamie, 15</p>
+                    </div>
+                </div>
+                <div class="testimonial-card glassmorphic-card">
+                    <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                    <p class="testimonial-text">The guided exercises have been a game-changer for my stress levels. I use them before tests and whenever I feel overwhelmed.</p>
+                    <div class="testimonial-author">
+                        <p class="author-name">Taylor, 16</p>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-dots">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <span>MindfulAI</span>
+                <p>Supporting youth mental wellness through AI</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#resources">Resources</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Connect</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 MindfulAI. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="ai-service.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
